@@ -33,10 +33,9 @@
               <button>Remove</button>
             </div>
           </div>
-
-
-
-          
+          <% for(let i=0; i < classes.length; i++) { %>
+          <h3><%= classes[i].class_name %></h3>
+          <% } %> 
         </div>
       </div>
       <div class="container">
@@ -48,8 +47,8 @@
         <div class="titleBox">
           <h1>Teachers</h1>
         </div>
-       <% for(var i=0; i < teachers.length; i++) { %>
-          <h3><%= teachers[i].first_name %> <%= teachers[i].last_name %>
+       <% for(var i=0; i < data.length; i++) { %>
+          <h3><%= teachers[i].first_name %> <%= teachers[i].last_name %></h3>
           <% } %> 
 
       </div>
