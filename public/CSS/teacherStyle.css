@@ -5,6 +5,10 @@ main {
   flex-direction: column;
 }
 
+#currentTeachers {
+  padding: 5px;
+}
+
 .currentTeachers {
   display: flex;
   flex-direction: column;
@@ -28,19 +32,18 @@ h1 {
 }
 
 .teacherContainer div p {
-  color: var(--darkGrey); 
+  color: var(--darkGrey);
   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 1024px) {
-
   .teacherContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
-  .teacherContainer p{
+  .teacherContainer p {
     text-align: center;
   }
 }
